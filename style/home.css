@@ -1,0 +1,139 @@
+body
+{
+  /* background-image: url('/ethiopia.jpg');
+  background-size: cover; */
+  background-color: #003554;
+  height: 700px;
+  margin: 0;
+  
+}
+.header
+{
+  height: 50px;
+  width: 100%;
+  border: #588157 solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background-color: #003554;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px #0e0e0f;
+  position: fixed;
+  margin-top: 0;
+}
+input
+{
+  height: 30px;
+  margin-left: auto;
+  /* margin-right: auto; */
+  min-width: 500px;
+  border-radius: 3px;
+  border-style: solid;
+  border-right: none;
+  padding-left: 30px; 
+  font-family: roboto;
+  font-size: 20px;
+  transition: 1s;
+}
+a
+{
+  margin-left: 20px;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-family: roboto;
+  transition: 0.5s;
+  font-weight: bold;
+}
+a:hover
+{
+  color: #a7c957;
+  text-decoration: underline;
+}
+img
+{
+  margin-left: -5;
+  width: 25px; 
+}
+button
+{
+  border-left: none;
+  margin-left: -5;
+  border: #dad7cd solid 1px;
+  border-radius: 3px;
+  transition: 1s;
+  cursor: pointer;
+}
+.Title
+{
+  width: 600px;
+  /* border: #00a6fb solid 2px; */
+  height: 700px;
+  display: flex;
+  align-content:center;
+  justify-content: center;
+  border:solid 2px #588157;
+  border-top: none;
+  border-left: none;
+  /* padding-top: 50px; */
+  margin-bottom: 0;
+}
+.container
+{
+  display: flex;
+  margin-bottom: 0;
+  
+}
+.sefed
+{
+  width: 100%;
+ align-content: center;
+ justify-content: center;
+  /* margin-bottom: 300px; */
+  /* opacity: 0.5; */
+  /* padding-top: 50px; */
+}
+.foot-bar
+{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 100%;
+  border: red solid 2px;
+  
+}
+ul
+{
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+li
+{
+  align-content: space-between;
+  
+}
+select
+{
+  font-size: 14px;
+  font-family: roboto;
+  height: 30px;
+  margin-right: 30px;
+  transition: 1s;
+  text-align: center;
+  border-radius: 2px;
+}
+select:hover
+{
+ background-color: #61a5c2;
+ color: #003554;
+}
+ input:hover
+{
+ background-color: #89c2d9;
+}
+button:hover
+{
+ background-color:#89c2d9;
+}

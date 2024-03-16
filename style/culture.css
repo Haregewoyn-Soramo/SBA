@@ -1,0 +1,156 @@
+body
+{
+  
+  background-color: #001524;
+  margin: 0;
+  border: #679436 solid 1px;
+}
+.header
+{
+  height: 50px;
+  width: 100%;
+  border: #588157 solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background-color: #003554;
+  cursor: pointer;
+  box-shadow: 5x 5px 3px #0e0e0f;
+  position: fixed;
+  margin-top: 0;
+  margin-left: 0;
+  
+}
+.header>input
+{
+  height: 30px;
+  margin-left: auto;
+  /* margin-right: auto; */
+  min-width: 500px;
+  border-radius: 3px;
+  border-style: solid;
+  border-right: none;
+  padding-left: 30px; 
+  font-family: roboto;
+  font-size: 20px;
+  transition: .5s;
+  background-color:#ebf2fa;
+  transition: .5s;
+}
+.header>input:hover
+{
+  background-color: #a8dadc;
+}
+a
+{
+  margin-left: 20px;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-family: roboto;
+  /* transition: 0.5s; */
+  font-weight: bold;
+}
+/* a:hover
+{
+  color: #a7c957;
+  text-decoration: underline;
+} */
+img
+{
+  margin-left: -5;
+  width: 25px; 
+}
+button
+{
+  border-left: none;
+  margin-left: -5;
+  border: #dad7cd solid 1px;
+  border-radius: 3px;
+  transition: .5s;
+  cursor: pointer;
+}
+button:hover
+{
+  background-color: #a8dadc;
+}
+.footer
+{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  vertical-align: top;
+  margin-top:0;
+  color:#427aa1;
+  background-color:#ebf2fa;
+  transition: 1s;
+  /* background-image: url('/free-photo-of-the-national-flag-of-ethiopia.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.foods,.clothes
+{
+  width: 45%;
+  height: 500px;
+  text-align: center;
+  font-family: roboto;
+  margin-top: 60px;
+  margin-bottom: 130px;
+}
+.foods
+{
+   margin-left: 80px;
+}
+
+.culture
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallary
+{
+ width: 200px;
+ border-radius: 5px;
+}
+fieldset
+{ 
+  font-family: Roboto;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: #272c08;
+  flex-basis: 100%;
+  color:#a5be00;
+  margin-bottom: 30px;
+  margin-top: 30px; 
+}
+h2
+{
+  color: #007ea7;
+}
+select
+{
+  width: 80px;
+  height: 30px;
+  transition: .5s;
+  color:#427aa1;
+}
+select:hover
+{
+  background-color: #427aa1;;
+  color: #e71d36;
+}
+a
+{
+  text-decoration: none;
+  font-style: roboto;
+  font-size: 16px;
+  color:#427aa1;
+}
+a:hover
+{
+  text-decoration: double;
+  color: #e71d36;
+}
+

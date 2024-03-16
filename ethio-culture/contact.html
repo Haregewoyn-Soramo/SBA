@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+<style>
+ body
+{
+  
+  /* background-image: url('/images/ejoch.jpg'); */
+  background-image: url('/images/buna.jpeg');
+  margin: 0;
+  border: #679436 solid 1px;
+  background-size: cover;
+}
+.header
+{
+  height: 50px;
+  width: 100%;
+  border: #588157 solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background-color: #003554;
+  cursor: pointer;
+  /* box-shadow: 5x 5px 3px #0e0e0f; */
+  position: fixed;
+  margin-top: 0;
+  margin-left: 0; 
+}
+.header>input
+{
+  height: 30px;
+  margin-left: auto;
+  /* margin-right: auto; */
+  min-width: 500px;
+  border-radius: 3px;
+  border-style: solid;
+  border-right: none;
+  padding-left: 30px; 
+  font-family: roboto;
+  font-size: 20px;
+  transition: .5s;
+  background-color:#ebf2fa;
+  transition: .5s;
+}
+.header>input:hover
+{
+  background-color: #a8dadc;
+}
+a
+{
+  margin-left: 20px;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-family: roboto;
+  /* transition: 0.5s; */
+  font-weight: bold;
+}
+/* a:hover
+{
+  color: #a7c957;
+  text-decoration: underline;
+} */
+img
+{
+  margin-left: -5;
+  width: 25px; 
+}
+button
+{
+  border-left: none;
+  margin-left: -5;
+  border: #dad7cd solid 1px;
+  border-radius: 3px;
+  transition: .5s;
+  cursor: pointer;
+}
+button:hover
+{
+  background-color: #a8dadc;
+}
+select
+{
+  width: 80px;
+  height: 30px;
+  transition: .5s;
+  color:#427aa1;
+}
+select:hover
+{
+  background-color: #427aa1;;
+  color: #e71d36;
+}
+a
+{
+  text-decoration: none;
+  font-style: roboto;
+  font-size: 16px;
+  color:#427aa1;
+}
+a:hover
+{
+  text-decoration: double;
+  color: #e71d36;
+}
+.container
+{
+  width: 500px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ced4da;
+  display: flex;
+  border-radius: 3px;
+  margin-top: 80px;
+  opacity: .5;
+  border: white solid 2px;
+}
+div
+{
+  margin-top: 50px;
+  width: 400px;
+  height:510px;
+  background-color: #e9ecef;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 150px; */
+  /* margin-bottom: 150px; */
+  border-radius: 3px;
+  border: white solid 2px;
+}
+.email
+{
+ margin-top: 30px;
+ height: 40px;
+ padding-left: 20px;
+ width: 80%;
+}
+.send
+{
+  margin-top: 20px;
+  height: 40px;
+  width: 86%;
+  background-color: #427aa1;
+  color:  #e9ecef;
+  transition: .5s;
+}
+.send:hover
+{
+  color: #ef233c ;
+  border: #0077b6 solid 1px;
+}
+textarea
+{
+ margin-top: 20px;
+ padding-left: 20px;
+ padding-top: 20px;
+ width: 80%;
+}
+.send,.email,textarea
+{
+ margin-left: 27px;
+ border: white solid 4px;
+ border-radius: 3px;
+ font-family: roboto;
+}
+textarea:hover
+{
+  background-color: #a8dadc;
+  border: #0077b6 solid 1px;
+}
+.email:hover
+{
+  background-color: #a8dadc;
+  border: #0077b6 solid 1px;
+}
+</style>
+</head>
+<body>
+  <div class="header">
+    <a style="margin-left: 60px;" href="/ethio-culture\home.html">Home</a>
+    <input type="text" placeholder="Search..">
+    <button><img src="/images\search icon.svg"></button>
+    <a style="margin-left: auto;"href="/ethio-culture\culture.html">Culture</a>
+    <a href="#food">Food</a>
+    <a href="#about">About</a>
+    <a style="margin-right: 0;" href="/ethio-culture\contact.html">Contact</a> 
+    <a href="#city"></a>
+      <select style="margin-right: 40px;" >
+        <option>City</option>
+        <option>Addis Ababa</option>
+        <option>Hawassa</option>
+        <option>Wolayta Sodo</option>
+        <option>Arbaminch</option>
+        <option>Hossanaa</option>
+        <option>Adama</option>
+        <option>Gonder</option>
+        <option>Mekele</option>
+      </select>
+  </div>
+<div class="container">
+  <div>
+    <form>
+      <h2 style="text-align: center; padding-top: 40px; font-family: roboto;">Get in Touch</h2>
+      <P style="font-family: roboto;text-align: center;font-size: 13px; color: #161717;">Contact our team</P>
+      <input class="email" type="email" name="email" placeholder="Email address*">
+    </form>
+      <textarea  name="help" cols="30" rows="10" placeholder="What can we help with?"></textarea>
+      <button class="send">Send</button>
+        <pre style="color: #171818; font-size: 11px; margin-top: 40px;font-family: arial;"><span style="font-weight: bold;">
+                     Help Scout                             Brand Assest</span>   
+                     123 Main Street,                      Logos, screenshoot and more. 
+                     Anytown, USA 12345      
+       </pre>
+  </div>
+</div>
+</body>
+</html>
