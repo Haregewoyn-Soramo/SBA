@@ -1,5 +1,5 @@
 Ethiopian culture website
-ethiopian culture website is a web application that allowes user to get detailed information about ethiopia
+ethiopian culture website is a website that allowes user to get detailed information about ethiopia
 Table content
 Installation
 Usage
